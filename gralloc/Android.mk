@@ -34,7 +34,7 @@ LOCAL_SRC_FILES := 	\
 	gralloc.cpp 	\
 	mapper.cpp
 
-LOCAL_CFLAGS := -DLOG_TAG=\"gralloc\"
+LOCAL_CFLAGS := -DLOG_TAG=\"gralloc\" -Wno-unused-parameter -Wno-unused-variable -Wno-error
 
 LOCAL_MODULE := gralloc.exynos5
 LOCAL_MODULE_TAGS := optional
